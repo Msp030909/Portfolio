@@ -8,3 +8,15 @@ h1 {
     text-align: center;
     font-size: 40px;
 }
+
+div {
+    margin: auto;
+    text-align: left;
+    width: fit-content;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
