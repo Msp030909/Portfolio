@@ -3,40 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
-    <title>Document</title>
+    <title>Portfolio Website</title>
 </head>
 <body>
-    <h1>Portfolio Website</h1>
+    <header class="site-header">
+        <div class="container header-inner">
+            <h1 class="site-title">Portfolio Website</h1>
+            <nav class="nav">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-    <div class="hero">
-        <img src="https://st.depositphotos.com/1144472/2003/i/450/depositphotos_20030237-stock-photo-cheerful-young-man-over-white.jpg" alt="Profile photo placeholder">
-        <p>(pretend this is a picture of me because I can't actually use one)</p>
-    </div>
+    <main class="container">
+        <section class="hero" id="home">
+            <div class="hero-inner">
+                <img class="profile" src="https://st.depositphotos.com/1144472/2003/i/450/depositphotos_20030237-stock-photo-cheerful-young-man-over-white.jpg" alt="Profile photo placeholder">
+                <div class="hero-copy">
+                    <h2>Hi — I'm a hobbyist developer</h2>
+                    <p>Since I was born, I've always had an interest in programming. I enjoy games and exploring how they're made. I build projects for fun and learning.</p>
+                </div>
+            </div>
+        </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I was born in 2009 and I've always had an interest in programming.</p>
-        <p>I grew up in a household and later studied things at places.</p>
-        <p>Currently, I work as an unemployed person specializing in not having a job.</p>
-    </section>
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Currently, I'm unemployed, but have a lot of experience with coding things as a hobby.</p>
+        </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <p>Technical: HTML, CSS, JavaScript</p>
-        <p>Tools &amp; frameworks: Git, VS Code, Godot</p>
-    </section>
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+                <li>VS Code</li>
+                <li>Godot</li>
+            </ul>
+        </section>
 
-    <section id="projects">
-        <h2>Selected Projects</h2>
-        <p><strong>Project Name:</strong> _____ — A brief description: _____.</p>
-        <p><strong>Project Name:</strong> _____ — A brief description: _____.</p>
-    </section>
+        <section id="projects" class="section">
+            <h2>Selected Projects</h2>
+            <div class="projects-grid">
+                <article class="card">
+                    <h3>Project Name</h3>
+                    <p>A short description of the project and what you learned building it.</p>
+                </article>
+                <article class="card">
+                    <h3>Project Name</h3>
+                    <p>A short description of the project and what you learned building it.</p>
+                </article>
+            </div>
+        </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: Yes, I have one of those!</p>
-        <p>LinkedIn: No, I don't have one sorry.</p>
-    </section>
+        <section id="contact" class="section">
+            
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: Yes, I have one of those!</p>
+            <p>LinkedIn: No, I don't have one, sorry.</p>
+            <small>© 2026 — Built with HTML &amp; CSS</small>
+        </div>
+    </footer>
 </body>
 </html>
