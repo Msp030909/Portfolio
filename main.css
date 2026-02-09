@@ -2,7 +2,8 @@
     --bg:#020802;
     --card:#25da40;
     --text:#e9f7eb;
-    --muted:#000000;
+    --ctext:#000000; /* text color for cards */
+    --muted:#8d8d8d;
     --accent:#00b818;
     --radius:12px;
 }
@@ -49,12 +50,14 @@ body{
 .section h2{margin:0 0 12px 0;font-size:18px}
 
 .skills-list{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:0}
-.skills-list li{background:var(--card);padding:8px 12px;border-radius:999px;border:1px solid rgba(16,24,40,0.05);color:var(--muted);font-weight:600}
+.skills-list li{background:var(--card);padding:8px 12px;border-radius:999px;border:1px solid rgba(16,24,40,0.05);color:var(--ctext);font-weight:600}
 
 .projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
 .card{background:var(--card);padding:16px;border-radius:var(--radius);box-shadow:0 6px 18px rgba(16,24,40,0.04);border:1px solid rgba(16,24,40,0.03)}
 .card h3{margin:0 0 8px 0}
-.card p{margin:0;color:var(--muted)}
+.card a{color:var(--text);text-decoration:none;}
+.card a:hover{color:var(--ctext);text-decoration: dashed;}
+.card p{margin:0;color:var(--ctext)}
 
 .site-footer{padding:24px 0;text-align:center;color:var(--card);font-size:13px;background:#252525;border-top:5px solid rgba(255, 255, 255, 0.04)}
 
