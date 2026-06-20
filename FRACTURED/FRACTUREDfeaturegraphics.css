@@ -1,0 +1,124 @@
+body 
+{
+    text-align: left;
+    
+    /*background: rgb(18,0,0);
+background: linear-gradient(180deg, rgba(18,0,0,1) 0%, rgba(55,0,0,1) 77%, rgba(255,0,0,1) 100%);*/
+background: linear-gradient(180deg, rgba(18,0,0,1) 0%, rgba(30,0,117,1) 38%, rgba(0,56,107,1) 52%, rgba(30,0,117,1) 65%, rgba(155,0,112,1) 82%, rgba(255,0,0,1) 100%);
+    color: white;
+}
+
+div
+{
+    text-align:left;
+    margin: auto;
+    width:fit-content;
+}
+
+h2 
+{
+    text-align:left;
+    margin: auto;
+    width:fit-content;
+}
+
+.button 
+{
+    color:white;
+    background-color: CC0000;;
+    border: none;
+    padding: 10px 10px;
+    font-family: sans-serif;
+    font-size: medium; 
+    text-align: center !important; 
+    outline:auto;
+    outline:rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.button:hover
+{
+    color: rgb(130, 0, 0);
+    background-color:white;
+}
+
+.button2 
+{
+    color:white;
+    background-color:FF6B00;
+    border: none;
+    padding: 10px 10px;
+    font-family: sans-serif;
+    font-size:medium;
+    cursor: pointer;
+}
+
+.button2:hover
+{
+    background-color: white;
+    color: rgb(219, 80, 0);
+}
+
+.title 
+{
+    text-align: center;
+    padding: 0 !important;
+}
+
+h3 
+{
+    text-align:center;
+    margin: auto;
+    width:fit-content;
+}
+
+img
+{
+    /* padding: 30;
+    padding-left: 500;*/
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color:rgb(150, 0, 0);
+    font-style: oblique;
+    font-weight: 900;
+}
+
+a:hover {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.spooky 
+{
+    color: rgb(8, 0, 114);
+}
+
+table.centered 
+{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.div 
+{
+
+    margin: auto;
+}
+
+/* I need this for the routes tag so I can make the table actually centered */
+
+br 
+{
+    user-select: none;
+}
+
+#secretunlock 
+{
+    cursor: pointer;
+}
